@@ -11,11 +11,13 @@ const Index = () => {
         <div className="container max-w-4xl mx-auto">
           <div className="flex flex-col items-center text-center space-y-8">
             <div className="animate-float">
-              <img 
-                src={logoIcon} 
-                alt="기특 로고" 
-                className="w-24 h-24"
-              />
+              <div className="bg-white rounded-full p-6 shadow-soft">
+                <img 
+                  src={logoIcon} 
+                  alt="기특 로고" 
+                  className="w-24 h-24"
+                />
+              </div>
             </div>
             
             <div className="space-y-4 animate-fade-in" style={{ animationDelay: "200ms" }}>
