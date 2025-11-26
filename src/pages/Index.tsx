@@ -1,7 +1,7 @@
 import { Heart, MapPin, Package, ShieldCheck, Eye } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { FeatureCard } from "@/components/FeatureCard";
-import logoSplash from "@/assets/logo-splash.png";
+import logoIcon from "@/assets/giteuk-icon.png";
 
 const Index = () => {
   return (
@@ -12,9 +12,9 @@ const Index = () => {
           <div className="flex flex-col items-center text-center space-y-8">
             <div className="animate-float">
               <img 
-                src={logoSplash} 
+                src={logoIcon} 
                 alt="기특 로고" 
-                className="w-32 h-auto"
+                className="w-24 h-24"
               />
             </div>
             
