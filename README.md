@@ -1,73 +1,58 @@
-# Welcome to your Lovable project
+# 기특 (GITEUK) - 투명한 기부 플랫폼
 
-## Project info
+투명한 기부의 시작, QR 코드 하나로 만나는 새로운 기부 문화
 
-**URL**: https://lovable.dev/projects/c5c510eb-1243-4225-904f-d695829f18b9
+## 프로젝트 소개
 
-## How can I edit this code?
+기특은 QR 코드가 인쇄된 특별한 박스를 통해 기부의 전 과정을 투명하게 추적할 수 있는 서비스입니다.
 
-There are several ways of editing your application.
+## 기술 스택
 
-**Use Lovable**
+- **React 18** - UI 라이브러리
+- **TypeScript** - 타입 안정성
+- **Vite** - 빌드 도구
+- **Tailwind CSS** - 스타일링
+- **shadcn-ui** - UI 컴포넌트
+- **React Router** - 라우팅
+- **TanStack Query** - 상태 관리
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c5c510eb-1243-4225-904f-d695829f18b9) and start prompting.
+## 시작하기
 
-Changes made via Lovable will be committed automatically to this repo.
+### 필수 요구사항
 
-**Use your preferred IDE**
+- Node.js (권장: nvm 사용)
+- npm 또는 bun
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 설치 및 실행
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+```bash
+# 의존성 설치
+npm install
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 개발 서버 실행
 npm run dev
+
+# 프로덕션 빌드
+npm run build
+
+# 빌드 미리보기
+npm run preview
+
+# 린트 검사
+npm run lint
 ```
 
-**Edit a file directly in GitHub**
+개발 서버는 `http://localhost:8080`에서 실행됩니다.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 주요 기능
 
-**Use GitHub Codespaces**
+- 🔍 **투명한 추적**: QR 코드로 기부금의 전달 과정을 실시간 확인
+- 📦 **특별한 박스**: 기부 전용 박스로 정성스러운 전달
+- ✅ **믿을 수 있는 기부**: 검증된 단체와 투명한 프로세스
+- ❤️ **다양한 캠페인**: 동물, 아동/청소년, 장애인 등 다양한 분야
+- 📍 **위치 기반 서비스**: 내 주변의 기부처 검색
+- 📱 **QR 코드 스캔**: 앱 내 카메라로 간편한 기부 흐름 확인
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 라이선스
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/c5c510eb-1243-4225-904f-d695829f18b9) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+© 2024 기특 GITEUK. 투명한 기부 문화를 만들어갑니다.
